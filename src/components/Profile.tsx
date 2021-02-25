@@ -4,8 +4,14 @@ export function Profile() {
   return (
     <div className={styles.profileContainer}>
       <img src="https://github.com/cinthia3301andrad.png" alt="Cinthia"/>
-      <strong>Cinthia Andrade</strong>
-      <p>Level aqui</p>
+      <div>
+        <strong>Cinthia Andrade</strong>
+        <p>
+          <img src="icons/level.svg" alt=""/>
+          Level 1
+        </p>
+      </div>
+   
     </div>
   )
 }
